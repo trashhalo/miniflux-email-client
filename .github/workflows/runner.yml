@@ -26,6 +26,7 @@ jobs:
       env:
         MINIFLUX_URL: ${{ secrets.MINIFLUX_URL}}
         MINIFLUX_TOKEN: ${{ secrets.MINIFLUX_TOKEN }}
+        SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
         SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         SEND_TO: ${{ secrets.TO_EMAIL }}
