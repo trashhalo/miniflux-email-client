@@ -31,6 +31,6 @@ jobs:
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         SEND_TO: ${{ secrets.TO_EMAIL }}
         CGO_ENABLED: 0
-        CATEGORY: daily
+        CATEGORY: All
       run: |
         go run main.go
